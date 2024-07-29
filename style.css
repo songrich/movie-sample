@@ -1,0 +1,53 @@
+.main{
+    background-color:blue ;
+    height: 200px;
+    text-align:center ;
+    background-image:url('https://img.freepik.com/premium-photo/d-rendering-of-movie-entertainment-props-popcorn-box-and-clapper-board-concept-3d-modeling-movie-props-entertainment-design-rendered-images_918839-149370.jpg?size=626&ext=jpg&ga=GA1.2.131705175.1722214237&semt=ais_user') ;
+    background-position:center ;
+    background-size:cover ;
+    }
+.size{
+    font-size:  75px; 
+    margin-top:30px;
+    color:black ;
+}
+.second{
+    background-image:url('https://img.freepik.com/free-photo/movie-slate-and-roll-with-popcorn_23-2148470233.jpg?w=996&t=st=1722214824~exp=1722215424~hmac=1ded40167903b76792fa0b32b5ac91ea45300ef9de9acca2064af86dfab7aa6b') ;
+    background-position:center ;
+    background-size:cover ;
+    display:flex ;
+    flex-direction:row ;
+    align-items:center ;
+    justify-content:center ;
+    background-color:green ;
+    height: 100px; ;
+}
+#movie-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 960px;
+}
+
+.movie-card{
+    
+    border-radius: 8px;
+    border:1px solid blue ;
+padding: 16px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+.second>input{
+    height:50px;
+   font-size:25px ;
+}
+.second>button{
+    margin-left:10px ;
+    width:100px;
+    height:50px;
+    font-size:20px ;
+    background-color:transparent ;
+    border-radius:5px ;
+    border:1px solid black;
+}
+  
